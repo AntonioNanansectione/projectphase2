@@ -1,0 +1,95 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #ffcc66; /* Tasty Bites theme color */
+}
+
+.navbar-brand {
+    color: #fff; /* White text */
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #333; /* Dark text */
+}
+
+/* Page Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Section Padding */
+.section {
+    padding: 40px 0;
+}
+
+/* Section Title */
+.section-title {
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #333; /* Dark text */
+}
+
+/* Card Styles */
+.card {
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    color: #555; /* Gray text */
+}
+
+/* Button Styles */
+.btn {
+    background-color: #ffcc66; /* Tasty Bites theme color */
+    border: none;
+    color: #333; /* Dark text */
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e0b700; /* Lighter theme color on hover */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333; /* Dark background */
+    color: #fff; /* White text */
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar-nav {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .section-title {
+        font-size: 24px;
+    }
+}
